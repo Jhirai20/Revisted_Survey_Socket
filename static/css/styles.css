@@ -1,0 +1,30 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+#wrapper {
+    margin: 20px auto;
+    padding: 40px;
+    width: 760px;
+    border: 1px solid black;
+}
+
+input[type=text], select, label, .wide200 {
+    display: inline-block;
+    width: 200px;
+}
+
+textarea {
+    width: 400px;
+    height: 100px;
+    overflow: auto;
+}
+
+#server-response {
+    background: #b6d7a8;
+    border: 1px solid black;
+    display: none;
+    padding: 20px;
+}

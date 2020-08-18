@@ -1,0 +1,15 @@
+{
+  "name": "survey-revisited",
+  "description": "node.js survey form revisted using sockets.io",
+  "version": "0.0.1",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "body-parser": "1.13.x",
+    "express": "4.13.x",
+    "ejs": "2.3.x",
+    "querystring": "0.2.x",
+    "socket.io": "1.3.x"
+  }
+}
